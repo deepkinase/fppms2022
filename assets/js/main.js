@@ -100,7 +100,7 @@ setInterval(function () {
 	    + minutes + '</span><b>m</b><span class="seconds">' + seconds + '</span><b>s till</b>');
 		}
 		else if (days < 0){
-			$('#countdown').html('<p>This event has ended.</p><p>来日后会相予期 去去莫迟疑﻿</p>')
+			// $('#countdown').html('<p>This event has ended.</p><p>来日后会相予期 去去莫迟疑﻿</p>')
 		}
 
 

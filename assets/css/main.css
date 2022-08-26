@@ -242,7 +242,7 @@ ul li {
 }
 
 .bg-image-1 {
-  background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/dk-bg-1.jpg) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.2);
@@ -341,7 +341,9 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background-image: url(../images/backgrounds/dk_header2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .site-header::before {
   content: "";
@@ -350,7 +352,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 .site-header .intro {
   color: #e5fdff;
