@@ -23,7 +23,7 @@
   }
   function createMap(){
     map = new BMap.Map("map");
-    map.centerAndZoom(new BMap.Point(121.111696,31.335399),19);
+    map.centerAndZoom(new BMap.Point(121.111793,31.335282),19);
   }
   function setMapEvent(){
     map.enableScrollWheelZoom();
@@ -38,7 +38,7 @@
   }
   function addMapOverlay(){
     var markers = [
-      {content:"会议地址",title:"会议地址",imageOffset: {width:-46,height:-21},position:{lat:31.335399,lng:121.111696}},
+      {content:"会议地址",title:"会议地址",imageOffset: {width:-46,height:-21},position:{lat:31.335282,lng:121.111793}},
     ];
     for(var index = 0; index < markers.length; index++ ){
       var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
