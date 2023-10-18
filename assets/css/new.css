@@ -428,6 +428,14 @@ ul li{
 /*
 * 6.6 Section: Schedule
 */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex p{
+    flex: 1;
+    text-align: center;
+}
 .schedule-box{
     position: relative;
     margin: 10px 0 0;
